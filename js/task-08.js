@@ -7,7 +7,7 @@ function sendDate(params) {
 
   const { email, password } = params.currentTarget.elements;
 
-  if (email.vallue === "" || password.value === "") {
+  if (email.value === "" || password.value === "") {
     return alert("всі поля повинні бути заповнені");
   }
 
